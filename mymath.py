@@ -13,3 +13,9 @@ def multiply(num1, num2):
 def rem(num1, num2):
     """Returns the remainder of two numbers."""
     return num1 % num2
+
+def divide(num1, num2):
+    """Returns the quotient of two numbers."""
+    if num2 == 0:
+        raise ValueError("Cannot divide by zero.")
+    return num1 / num2
